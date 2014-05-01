@@ -11,7 +11,7 @@ def find_imstack():
     '''
     Function to find imstack, as it has been renamed on ngtshead
     '''
-    names = ['casu_imstack', 'imstack']
+    names = ['imstack', 'casu_imstack']
     for name in names:
         try:
             sp.check_call(['which', name], stderr=sp.PIPE, stdout=sp.PIPE)
